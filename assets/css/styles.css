@@ -21,6 +21,15 @@ body {
 	background-color: hsl(30, 54%, 90%); /* Eggshell */
 }
 
+ol li::marker {
+	color: hsl(14, 45%, 36%);
+	font-weight: bold;
+}
+
+ul li::marker {
+	font-size: 10px;
+}
+
 .app-container {
 	font-family: Outfit;
 	font-size: 16px;
