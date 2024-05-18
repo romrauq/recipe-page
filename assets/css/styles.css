@@ -75,6 +75,7 @@ ul li::marker {
 }
 
 .prep-time-item {
+	padding-left: 20px;
 	margin: 0 0 5px 20px;
 }
 
@@ -88,12 +89,12 @@ ul li::marker {
 }
 
 .ingredient-item {
-	padding: 0 0 5px 0;
+	padding: 0 0 5px 20px;
 	margin: 0 0 5px 20px;
 }
 
 .instruction-item {
-	padding: 0 0 5px 0;
+	padding: 0 0 5px 20px;
 	margin: 0 0 5px 20px;
 }
 
