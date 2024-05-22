@@ -17,7 +17,8 @@
 body {
 	color: hsl(30, 10%, 34%);
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	/* justify-content: center; */
 	background-color: hsl(30, 54%, 90%); /* Eggshell */
 }
 
@@ -31,6 +32,7 @@ ul li::marker {
 }
 
 .app-container {
+	align-self: center;
 	font-family: Outfit;
 	font-size: 16px;
 	color: hsl(30, 10%, 34%);
@@ -121,6 +123,17 @@ ul li::marker {
 .unit-measure {
 	color: hsl(14, 45%, 36%);
 	font-weight: 500;
+}
+
+.attribution {
+	position: relative;
+	text-align: center;
+	bottom: 5px;
+	font-size: 11px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 475px) {
